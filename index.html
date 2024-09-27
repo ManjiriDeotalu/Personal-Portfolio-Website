@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manjiri's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+<h3 style="color: black; font-weight: normal;">Portfolio</h3>
+
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p></p>
+            <h1>Hi, I'm <span>Manjiri</span><br>Deotalu</h1>
+            <div>and I am a Passionate</div>
+            <span id="element"></span>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/ManjiriDeotalu"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/manjirideotalu03/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://medium.com/@deotalumanjiri"><i class='bx bxl-medium'></i></a>
+        
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                
+            </div>
+            <div class="about-col-2"><br><br>
+                <h1 class="sub-title">About Me</h1><br>
+                <p>I am currently pursuing a Bachelors of Technology in Computer Science and Engineering from MIT-ADT University. While
+                working towards my degree, I am actively developing and honing my skills to align with industry standards. My passion
+                for programming fuels my enthusiasm for completing projects and staying up to date with the latest advancements in the
+                field. As a student of Computer Science and Engineering, I am dedicated to gaining the knowledge and experience
+                necessary to excel in the industry.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>2025 - 8.2 CGPA</span><br>Bachelors of Technology - CSE from MIT ADT University</li>
+                        <li><span>2021 - 87.8%</span><br>HSC from Chhatrapati Shivaji Jr. Science College.</li>
+                        <li><span>2019 - 81.2%</span><br>SSC from St. Joseph's convent schoool.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Developer</span><br>Wobblrr(Jan'24-June'24)</li>
+                        <li><span>Web Developer</span><br>Prodigy Infotech(Dec'23-Jan'24)</li>
+                        <li><span>Management Intern</span><br>Younoia(Dec'22-Feb'23)</li>
+                    </ul>
+        
+                       
+                    
+                </div>
+                <div class="tab-contents" id="Hobbies">
+                    <ul>
+                        <li><span>Travelling</span></li>
+                        <li><span>Writing</span></li>
+                        <li><span>Exploring</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>JAVA</h2>
+                <p>Extensive experience in developing scalable applications with strong expertise in OOP principles and design patterns.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Database Management System</h2>
+                <p>Skilled in MySQL for designing, implementing, and managing relational databases.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Cloud Computing</h2>
+                <p>Experienced with AWS Cloud, Google Cloud Platform (GCP), and Azure IoT Edge, focusing on integrating real-time analytics
+                and optimizing system performance.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-database"></i>
+                <h2>Frontend Development</h2>
+                <p>Proficient in front-end and back-end development using Angular, Java, JavaScript, HTML, CSS, and NoSQL (MongoDB). Strong
+                focus on creating responsive and efficient web applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-network-wired"></i>
+                <h2>Edge Computing</h2>
+                <p>Expertise in deploying and managing edge computing solutions, enhancing device performance and scalability.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-robot"></i>
+                <h2>Data Structures and Algorithm</h2>
+                <p>Strong understanding of DSA, applying optimized solutions to complex computational problems.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-mobile-alt"></i>
+                <h2>Internet of Things</h2>
+                <p>Skilled in implementing IoT solutions, focusing on real-time data processing and system optimization.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-shield-alt"></i>
+                <h2>Version Control</h2>
+                <p>Experienced in using Git and GitHub for version control, managing code repositories, and collaborating on projects
+                efficiently.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Touropedia</h3>
+                    <p>A Python based GUI (Graphical User Interface) which recommends ideal destinations based on user interests, combining
+                    comprehensive location information into a single platform for seamless planning and exploration.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/w-2.png">
+                <div class="layer">
+                    <h3>Blood Bank Management System</h3>
+                    <p>The Blood Bank Donation System is a PHP-based web application for efficient donor registration, blood collection
+                    tracking, inventory management, and blood requests. Using a MySQL database, it offers real-time updates on blood
+                    availability.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Edge enabled smart doorbell system</h3>
+                    <p>Developed an intelligent doorbell with real-time facial recognition.Integrated edge computing for low-latency local
+                    data processing,Enhanced home security with remote notifications and interactions.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> manjirideotalu@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9423003429</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Manjiri. <i class="fas fa-heart"></i></a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '<add your own link here>' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Software Engineer', 'Web Developer', 'Cloud Practitioner',],
+        typeSpeed: 60,
+    });
+</script>
+
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+</body>
+</html>
